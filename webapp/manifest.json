@@ -1,7 +1,7 @@
 {
 	"_version": "1.7.0",
 	"sap.app": {
-		"id": "salesOrder",
+		"id": "igorklem.github.io",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"applicationVersion": {
@@ -39,7 +39,7 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "salesOrder.view.Main",
+			"viewName": "igorklem.github.io.view.Main",
 			"type": "JS"
 		},
 		"dependencies": {
@@ -62,7 +62,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "salesOrder.i18n.i18n"
+					"bundleName": "igorklem.github.io.i18n.i18n"
 				}
 			}
 		},
