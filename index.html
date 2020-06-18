@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Igor Klem</title>
+        <script id="sap-ui-bootstrap"
+            src="../../resources/sap-ui-core.js"
+            data-sap-ui-libs="sap.m"
+            data-sap-ui-theme="sap_belize"
+            data-sap-ui-compatVersion="edge"
+            data-sap-ui-resourceroots='{"igorklem": ""}'>
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script>
+			sap.ui.getCore().attachInit(function() {
+				new sap.m.Shell({
+					app: new sap.ui.core.ComponentContainer({
+						height : "100%",
+						name : "igorklem"
+					})
+				}).placeAt("content");
+			});
+		</script>
     </head>
     <body>
-        <h1>Welcome</h1>
+        <div class="sapUiBody" id="content"></div>
     </body>
 </html>
