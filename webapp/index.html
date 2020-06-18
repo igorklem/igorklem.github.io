@@ -11,15 +11,6 @@
         </script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script>
-            sap.ui.localResources("/");
-
-            var i18nModel = new sap.ui.model.resource.ResourceModel(
-            {
-                bundleUrl : "i18n/i18n.properties"
-            });
-
-            sap.ui.getCore().setModel(i18nModel, "i18n");
-
             var app = new sap.m.App({
                 initialPage:"App",
                 height: "100%",
@@ -30,7 +21,7 @@
 				new sap.m.Shell({
 					app: new sap.ui.core.ComponentContainer({
 						height : "100%",
-						name : "igorklem"
+						name : "igorklem.github.io"
 					})
 				}).placeAt("content");
 			});
