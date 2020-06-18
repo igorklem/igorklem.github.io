@@ -1,7 +1,7 @@
 sap.ui.define([
 	"sap/ui/core/UIComponent",
 	"sap/ui/Device",
-	"salesOrder/model/models"
+	"igorklem.github.io/model/models"
 ], function(UIComponent, Device, models) {
 	"use strict";
 
